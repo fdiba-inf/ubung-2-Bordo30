@@ -16,13 +16,12 @@ public class QuadraticEquation {
             if (discriminant>=0) {
                 double x1 = (-b+Math.sqrt(discriminant))/(2.0*a);
                 double x2 = (-b-Math.sqrt(discriminant))/(2.0*a);
-                System.out.println(x1);
-                System.out.println(x2);
+                System.out.println(x1+ ", " + x2);;
             } else {
                 System.out.println("Imaginary values");
             }
         } else if(b != 0) {
-            double x = c / b;
+            double x =(-c / b);
             System.out.println(x);
         } else if(c != 0) {
             System.out.println("No values");
