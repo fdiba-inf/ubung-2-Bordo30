@@ -16,7 +16,7 @@ public class QuadraticEquation {
             if (discriminant>=0) {
                 double x1 = (-b+Math.sqrt(discriminant))/(2.0*a);
                 double x2 = (-b-Math.sqrt(discriminant))/(2.0*a);
-                System.out.println(x1+ ", " + x2);;
+                System.out.println(x1+ ", " + x2);
             } else {
                 System.out.println("Imaginary values");
             }
